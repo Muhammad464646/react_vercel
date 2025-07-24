@@ -1,5 +1,5 @@
 import React, { useRef, useState, useEffect } from 'react';
-import Card from '../Component/card';
+// import Card from '../Component/card';
 import Section from '../Component/Section';
 import Navigate from '../Component/Navigate';
 import Footer from '../Component/Footer';
@@ -94,14 +94,14 @@ const Home = () => {
           </button>
           <AnimatedTitle text="Our Benefits" className="text-3xl font-bold" />
           <AnimatedTitle text="With a dedicated team of experienced educators, state-of-the-art facilities, and a comprehensive curriculum, we aim to lay a strong foundation for your child's future." className="max-w-2xl mx-auto text-gray-600" />
-          <article className="flex flex-wrap justify-center gap-12 mt-6">
+          {/* <article className="flex flex-wrap justify-center gap-12 mt-6">
             <Card />
             <Card />
             <Card />
             <Card />
             <Card />
             <Card />
-          </article>
+          </article> */}
         </section>
 
         <section className="p-10 bg-gray-100 text-center space-y-6">
