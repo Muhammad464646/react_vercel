@@ -1,7 +1,7 @@
 import React from 'react';
 import SectionMain from '../Component/SectionMain';
 import Section from '../Component/Section';
-import Card from '../Component/card';
+// import Card from '../Component/card';
 import Footer from '../Component/Footer';
 import AnimatedTitle from '../Component/AnimetedTitle';
 

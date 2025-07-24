@@ -1,7 +1,7 @@
 import React from 'react'
 import SectionMain from '../Component/SectionMain';
 import Section from '../Component/Section';
-import Card from '../Component/card';
+// import Card from '../Component/card'
 import Footer from '../Component/Footer';
 import CardHobby from '../Component/CardHobby';
 import SliderComponent from '../Component/SliderComponent';
@@ -15,12 +15,12 @@ const Academics = () => {
       <section>
         <Section text={'Our Features'} h1t={'Our Special Features'} width={'700px'} pt={'Our kinder garden school provides a nurturing and stimulating environment, fostering a love for learning that lasts a lifetime. Join us as we embark on an exciting educational journey together!'} />
        <article className='flex flex-wrap gap-[50px] justify-center mt-[100px] mb-[100px]'>
+        {/* <Card />
         <Card />
         <Card />
         <Card />
         <Card />
-        <Card />
-        <Card />
+        <Card /> */}
        </article>
       </section>
    <section className='mb-[100px]'>

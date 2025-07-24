@@ -1,10 +1,10 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import Section from '../Component/Section'
-import Card from '../Component/card'
 import TeamMember from '../Component/TeamMember'
 import Footer from '../Component/Footer'
 import AnimatedTitle from '../Component/AnimetedTitle'
+// import Card from '../Component/card'
 
 
 const About = () => {
@@ -49,8 +49,7 @@ const About = () => {
           pt={'We are here to provide a nurturing and inclusive environment where young minds can thrive, fostering a love for learning and personal growth.'}
         />
         <article className="flex flex-wrap justify-center gap-10 mt-8">
-          <Card />
-          <Card />
+        {/* <Card/> */}
         </article>
       </section>
 
@@ -61,8 +60,8 @@ const About = () => {
           pt={'Little Learners Academy takes pride in our commitment to delivering high-quality education and outstanding student experiences. We are honored to have received various awards and recognitions for our dedication to early childhood education. These accolades reflect our teams relentless efforts in creating an exceptional learning environment for our students.'}
         />
         <article className="flex flex-wrap justify-center gap-8 mt-8">
-          <Card />
-          <Card />
+          {/* <Card /> */}
+          {/* <Card /> */}
           <Card />
         </article>
       </section>

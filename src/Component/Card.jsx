@@ -1,4 +1,3 @@
-import React from 'react'
 import AnimatedTitle from './AnimetedTitle'
 
 const Card = () => {
